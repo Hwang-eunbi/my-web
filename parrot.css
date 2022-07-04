@@ -1,0 +1,85 @@
+html{
+    background-color: rgb(243, 243, 235);
+}
+html,body{
+    height: 100%;
+}
+li {
+text-decoration-line: none; color: aliceblue; padding: 0px 10px 0px 10px;
+}
+header {  color: aliceblue;
+    text-align:center;font-size:50px; background-color:rgba(125, 245, 89, 0.719); font-weight: 600;
+}
+
+
+ul{
+text-align: left;text-decoration-line: none; padding: 0%; margin: 0%;
+}
+
+footer{
+    text-align: left; background-color: rgb(255, 247, 172); width: 100%; font-weight: 500;
+    height: 100px;
+    position: absolute;
+    bottom:0;
+    left:0;
+}
+a{
+    text-decoration : none; color:black;
+}
+section{ height:600px;
+    float: left;
+}
+label{
+   margin: 0px; background-color: rgb(184, 243, 184);   font-size: 30px;  font-weight: 600;
+}
+nav{
+    background-color: rgb(255, 255, 255); width: 200px;
+}
+aside{width: 500px;
+    float: right;
+}
+/* button.big_parrot_button{
+margin: 100px; padding: 10px 5px; display: inline-block; position: static;
+} */
+/* .parrot_Characteristic{
+    float: left;
+}
+.big_parrot_type{
+    float:left; padding: 0px 0px 0px 0px;
+} */
+
+.poster{
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+.navbar {
+    background-color: rgb(190, 237, 120);
+    /* color: aliceblue;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; */
+}
+#body-wrapper{
+    min-height: 100%;
+    padding-bottom: 500px ;
+    position: relative;
+}
+#body-content{
+    margin-top:50px;
+    padding-bottom: 400px;
+}
+#check-btn {
+    display: none;
+}
+#check-btn:checed ~ .menubars { display: block; }
+
+
+
+#
+.menubars { display: none;}
+
