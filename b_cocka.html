@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>유황앵무</title>
+    <style>
+        li{ list-style-type: none;}
+        label.menu{
+            text-align: center;
+            border: 0px solid black;
+            padding: 0px;
+        }
+        input#menu{
+            display: none;
+        }
+        nav#main_nav{
+            display: none;
+        }
+        input#menu:checked + nav#main_nav{
+            display: block;
+        }
+        html{
+            background-image: url('b_parrot.jpg') ;
+            background-size: 200px;
+            background-repeat: no-repeat;
+            background-position: 85% 27%;
+        }
+        #keum_btn{
+            margin-right: -4px;
+        }
+        #africa_btn{
+            margin-left: -3px;
+        }
+        #cockatoo_btn{
+            margin-left: -6px;
+        }
+        #amazon_btn{
+            margin-left: -7px;
+        }
+        #eclectus_btn{
+            margin-left: -7px;
+        }
+        #content button{
+            border: 3px solid rgb(252, 230, 34);
+            background-color: white;
+            color: rgb(252, 230, 34);
+            padding: 5px;
+            font-weight: 800;
+        }
+        #content button:hover{
+            color: white;
+            background-color: rgb(252, 230, 34);
+        }
+
+
+    </style> 
+    <link rel="stylesheet" href="parrot.css">
+</head>
+
+<body>
+    <div id="body-wrapper">
+        <header><a href="index.html">앵무새의 종류</a></header>
+    
+    <div>
+        <label class="menu" for="menu">Click Me!</label>
+        <input id="menu" type="checkbox">
+        <nav id="main_nav">
+            <ul>
+                <li><a href="parrot_1.html"><img src="parrot_b.png" width="50px">소형앵무새</a></li>
+                <li><a href="parrot_2.html"><img src="parrot_g.png" width="50px">중형앵무새</a></li>
+                <li><a href="parrot_3.html"><img src="parrot_r.png" width="50px">대형앵무새</a></li>
+            </ul>            
+        </nav>
+        <div id="content">
+            <button id="keum_btn"><a href="b_keum.html">금강앵무</a></button>   
+            <button id="africa_btn"><a href="b_africa.html">아프리카회색앵무</a></button>
+            <button id="cockatoo_btn"><a href="b_cocka.html">유황앵무(코카투)</a></button>
+            <button id="amazon_btn"><a href="b_amazon.html">아마존앵무</a></button>
+            <button id="eclectus_btn"><a href="b_eclectus.html"> 뉴기니아앵무</a></button>
+        </div>
+    </div>    
+
+            <div class="content">
+            <section class="parrot_Characteristic">
+                <img src="cockatoo1.jpg" width="20%">
+                <img src="cockatoo2.jpg" width="20%">
+                <div>
+                    <h4>유황앵무(코카투) Cockatoo</h4>
+                </div>
+                <div>
+                    <p>
+                        생김새: 몸 전체가 흰색의 깃털로 덮여 있으며 눈 둘레의 털이 없는 피부색은<br/>창백한 푸른빛을 띤다. 회색의 발과 검은 부리는 휘어져있다.<br/>밝은 노란색부터 거의 주황에 가까운 왕관 같은 관모를 갖고 있다. 암수 모두 같은 색으로 구분하기 힘들다. 다만 눈 색은 붉은 쪽이 암컷이고 검은 쪽이 수컷으로 눈을 보면 성별을 알 수 있다.<br/><br/>
+                        먹이:알곡, 과일, 채소, 공충 등<br/><br/>
+                        서식지: 호주, 인도네시아<br/><br/>
+                        특징: 순하고 애교가 많지만, 상상을 초월하게 시끄럽다.<br/>성량이 크고 시도때도 없이 운다. 대형종이라 부리 힘도 굉장히 세서 부리에 닿는 모든 것을 씹어서 파괴한다.<br/>
+                        이런 문제들로 아파트에서 키우기에는 부적한 새지만, 애교있는 성격과 재주부리기가 매력포인트라 인기가 많다.<br/>
+                    </p>
+
+
+                </div>
+            </section>
+
+            </div>
+            <footer>
+                <p style="padding: 0 0 0 15px;">
+                    <span>contact me</span><br/>
+                    <span>이메일: dmsql940124@naver.com</span><br/>
+                </p>
+            </footer>
+    </div>
+</body>
+</html>

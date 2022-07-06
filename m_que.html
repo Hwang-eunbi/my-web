@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>퀘이커</title>
+    <style>
+        li{ list-style-type: none;}
+        label.menu{
+            text-align: center;
+            border: 0px solid black;
+            padding: 0px;
+        }
+        input#menu{
+            display: none;
+        }
+        nav#main_nav{
+            display: none;
+        }
+        input#menu:checked + nav#main_nav{
+            display: block;
+        }
+        html{
+            background-image: url('중형앵무새_배경.jpg') ;
+            background-size: 200px;
+            background-repeat: no-repeat;
+            background-position: 85% 27%;
+        }
+        #wang_btn{
+            margin-right: -4px;
+        }
+        #rose_btn{
+            margin-left: -3px;
+        }
+        #conure_btn{
+            margin-left: -6px;
+        }
+        #kai_btn{
+            margin-left: -7px;
+        }
+        #que_btn{
+            margin-left: -7px;
+        }
+        #content button{
+            border: 3px solid rgb(252, 230, 34);
+            background-color: white;
+            color: rgb(252, 230, 34);
+            padding: 5px;
+            font-weight: 800;
+        }
+        #content button:hover{
+            color: white;
+            background-color: rgb(252, 230, 34);
+        }
+    </style>
+    <link rel="stylesheet" href="parrot.css">
+</head>
+
+<body>
+    <header><a href="index.html">앵무새의 종류</a></header>
+    <label class="menu" for="menu">Click Me!</label>
+    <input id="menu" type="checkbox">
+    <nav id="main_nav">
+        <ul>
+            <li><a href="parrot_1.html"><img src="parrot_b.png" width="50px">소형앵무새</a></li>
+            <li><a href="parrot_2.html"><img src="parrot_g.png" width="50px">중형앵무새</a></li>
+            <li><a href="parrot_3.html"><img src="parrot_r.png" width="50px">대형앵무새</a></li>
+        </ul>
+    </nav>
+    <div id="content">
+        <button id="wang_btn"><a href="m_wang.html">왕관앵무</a></button>   
+        <button id="rose_btn"><a href="m_rose.html">장미앵무</a></button>
+        <button id="conure_btn"><a href="m_conure.html">코뉴어</a></button>
+        <button id="kai_btn"><a href="m_kai.html">카이큐</a></button>
+        <button id="que_btn"><a href="m_que.html">퀘이커</a></button>
+    </div>   
+
+            <div class="content">
+            <section class="parrot_Characteristic">
+                <img src="퀘이커1.jpg" width="20%">
+                <img src="퀘이커2.jpg" width="20%">
+                <div>
+                    <h4>퀘이커 Monk parakeet</h4>
+                </div>
+                <div>
+                    <p>
+                        생김새: 주로 녹색과 파랑색, 노란종과 흰 종은 수가 적다.
+                        먹이: 과일, 열매, 씨앗, 펠렛 등<br/><br/>
+                        서식지: <strong>남아메리카</strong>
+                        특징: 암수 모두 색깔로 구분이 어려우며 중형임에도 대형 못지않은 언어능력을 갖는다. <br/>저 역시 퀘이커 앵무를 기르는 입장에서 3~4개월 시기에 말문이 트이기 시작하며 개체수마다 다르겠지만 자주 울부짖는 아이들이 말을 빨리 배운다.<br/> 고개 끄덕끄덕 거리는 습성이 있어 이 행동으로 사람과 의사소통이 가능하다고도 알려져 있다.<br/> 발음은 왕관 및 코뉴어 모란보다 훨씬 더 정확하고 배웠던 사람 목소리 톤과 일치한다. <br/>여성분이나 남성분의 목소리 톤을 배우고 그 톤으로 발음한다.<br/>
+
+                </div>
+            </section>
+
+            </div>
+            <footer>
+                <p style="padding: 0 0 0 15px;">
+                    <span>contact me</span><br/>
+                    <span>이메일: dmsql940124@naver.com</span><br/>
+                </p>
+            </footer>
+    </div>
+</body>
+</html>

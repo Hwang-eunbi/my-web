@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>왕관앵무</title>
+    <style>
+        li{ list-style-type: none;}
+        label.menu{
+            text-align: center;
+            border: 0px solid black;
+            padding: 0px;
+        }
+        input#menu{
+            display: none;
+        }
+        nav#main_nav{
+            display: none;
+        }
+        input#menu:checked + nav#main_nav{
+            display: block;
+        }
+        html{
+            background-image: url('중형앵무새_배경.jpg') ;
+            background-size: 200px;
+            background-repeat: no-repeat;
+            background-position: 85% 27%;
+        }
+        #wang_btn{
+            margin-right: -4px;
+        }
+        #rose_btn{
+            margin-left: -3px;
+        }
+        #conure_btn{
+            margin-left: -6px;
+        }
+        #kai_btn{
+            margin-left: -7px;
+        }
+        #que_btn{
+            margin-left: -7px;
+        }
+        #content button{
+            border: 3px solid rgb(252, 230, 34);
+            background-color: white;
+            color: rgb(252, 230, 34);
+            padding: 5px;
+            font-weight: 800;
+        }
+        #content button:hover{
+            color: white;
+            background-color: rgb(252, 230, 34);
+        }
+    </style>
+    <link rel="stylesheet" href="parrot.css">
+</head>
+
+<body>
+    <header><a href="index.html">앵무새의 종류</a></header>
+    <label class="menu" for="menu">Click Me!</label>
+    <input id="menu" type="checkbox">
+    <nav id="main_nav">
+        <ul>
+            <li><a href="parrot_1.html"><img src="parrot_b.png" width="50px">소형앵무새</a></li>
+            <li><a href="parrot_2.html"><img src="parrot_g.png" width="50px">중형앵무새</a></li>
+            <li><a href="parrot_3.html"><img src="parrot_r.png" width="50px">대형앵무새</a></li>
+        </ul>
+    </nav>
+    <div id="content">
+        <button id="wang_btn"><a href="m_wang.html">왕관앵무</a></button>   
+        <button id="rose_btn"><a href="m_rose.html">장미앵무</a></button>
+        <button id="conure_btn"><a href="m_conure.html">코뉴어</a></button>
+        <button id="kai_btn"><a href="m_kai.html">카이큐</a></button>
+        <button id="que_btn"><a href="m_que.html">퀘이커</a></button>
+    </div>
+
+            <div class="content">
+            <section class="parrot_Characteristic">
+                <img src="왕관앵무1.jpg" width="20%">
+                <img src="왕관앵무2.jpg" width="20%">
+                <div>
+                    <h4>왕관앵무 Cockatiel</h4>
+                </div>
+                <div>
+                    <p>
+                        생김새: 자유자재로 움직이는 우관(머리깃)과 호리호리한 몸매에 긴 꼬리깃을 가지고 있다. <br/>콧구멍이 돌출되어있고 뺨에 선천적으로 홍조, 연지곤지 같은 붉은 털이 나 귀를 덮고 있지만 변종 중 화이트페이스나 알비노 등의 경우엔 없다.<br/><br/>
+                        먹이: 씨앗, 풀, 허브, 베리류, 곡물류, 탄수화물을 좋아해 비만에 걸리기 쉽다<br/><br/>
+                        서식지: <strong>호주</strong><br/><br/>
+                        특징: 체질이 튼튼하고 추위에도 강하다. 성격이 온순하여 초보자들이 키우기 쉽다. <br/>털이 많이 날리고 파우더가 날려, 기관지가 약한 분들은 키우지 말아야 한다.
+                    </p>
+
+
+                </div>
+            </section>
+
+            </div>
+            <footer>
+                <p style="padding: 0 0 0 15px;">
+                    <span>contact me</span><br/>
+                    <span>이메일: dmsql940124@naver.com</span><br/>
+                </p>
+            </footer>
+    </div>
+</body>
+</html>

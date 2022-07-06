@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>아프리카회색앵무</title>
+    <style>
+        li{ list-style-type: none;}
+        label.menu{
+            text-align: center;
+            border: 0px solid black;
+            padding: 0px;
+        }
+        input#menu{
+            display: none;
+        }
+        nav#main_nav{
+            display: none;
+        }
+        input#menu:checked + nav#main_nav{
+            display: block;
+        }
+        html{
+            background-image: url('b_parrot.jpg') ;
+            background-size: 200px;
+            background-repeat: no-repeat;
+            background-position: 85% 27%;
+        }
+        #keum_btn{
+            margin-right: -4px;
+        }
+        #africa_btn{
+            margin-left: -3px;
+        }
+        #cockatoo_btn{
+            margin-left: -6px;
+        }
+        #amazon_btn{
+            margin-left: -7px;
+        }
+        #kakapo_btn{
+            margin-left: -7px;
+        }
+        #content button{
+            border: 3px solid rgb(252, 230, 34);
+            background-color: white;
+            color: rgb(252, 230, 34);
+            padding: 5px;
+            font-weight: 800;
+        }
+        #content button:hover{
+            color: white;
+            background-color: rgb(252, 230, 34);
+        }
+
+
+    </style> 
+    <link rel="stylesheet" href="parrot.css">
+</head>
+
+<body>
+    <div id="body-wrapper">
+        <header><a href="index.html">앵무새의 종류</a></header>
+    
+    <div>
+        <label class="menu" for="menu">Click Me!</label>
+        <input id="menu" type="checkbox">
+        <nav id="main_nav">
+            <ul>
+                <li><a href="parrot_1.html"><img src="parrot_b.png" width="50px">소형앵무새</a></li>
+                <li><a href="parrot_2.html"><img src="parrot_g.png" width="50px">중형앵무새</a></li>
+                <li><a href="parrot_3.html"><img src="parrot_r.png" width="50px">대형앵무새</a></li>
+            </ul>            
+        </nav>
+        <div id="content">
+            <button id="keum_btn"><a href="b_keum.html">금강앵무</a></button>   
+            <button id="africa_btn"><a href="b_africa.html">아프리카회색앵무</a></button>
+            <button id="cockatoo_btn"><a href="b_cocka.html">유황앵무(코카투)</a></button>
+            <button id="amazon_btn"><a href="b_amazon.html">아마존앵무</a></button>
+            <button id="kakapo_btn"><a href="b_eclectus.html">뉴기니아앵무</a></button>
+        </div>
+    </div>    
+
+            <div class="content">
+            <section class="parrot_Characteristic">
+                <img src="africa.jpg" width="20%">
+                <div>
+                    <h4>아프리카회색앵무 Grey Parrot</h4>
+                </div>
+                <div>
+                    <p>
+                        생김새: 이름 답게 몸의 깃털이 회색이나, 꼬리부분은 붉은 색을 띈다. 변종의 경우 몸통이 꼬리깃처럼 붉은색을 띄기도 한다.<br/><br/>
+                        먹이:씨앗, 견과류, 과일 등<br/><br/>
+                        서식지: <strong>아프리카 중부지역</strong>에 주로 분포<br/><br/>
+                        특징: 새 중에서 지능이 뛰어나다고 알려진 앵무과 중에서도 가장 지능이 뛰어난 종으로 알려져 있다. 일반적으로 회색앵무의 지능은 인간의 4~6세 정도의 지능과 비슷하다고 추측되고 있다. 지능이 높은 만큼 애완용 회색앵무의 경우 주인을 잘 따르는 성격이라고 한다.<br/>
+                        높은 지능으로 인해 스트레스가 심하게 쌓이면 자해를 하는 경우도 있어서, 회색앵무를 키우는 경우 주의를 요하고 있다.<br/>
+                        <br/>
+                        회색앵무의 높은 지능을 대중들에게 알려진 계기는 미국의 <u>아이린 페퍼버그(Irene Pepperberg)</u> 박사에 의해 훈련받은 알렉스에 의해서였으며, 알렉스는 100개의 단어를 외우고 50개의 사물을 식별하며, 감정표현을 하기도 하였다.
+                        
+                    </p>
+                </div>
+            </section>
+            </div>
+            <footer>
+                <p style="padding: 0 0 0 15px;">
+                    <span>contact me</span><br/>
+                    <span>이메일: dmsql940124@naver.com</span><br/>
+                </p>
+            </footer>
+    </div>
+</body>
+</html>

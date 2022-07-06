@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>카이큐</title>
+    <style>
+        li{ list-style-type: none;}
+        label.menu{
+            text-align: center;
+            border: 0px solid black;
+            padding: 0px;
+        }
+        input#menu{
+            display: none;
+        }
+        nav#main_nav{
+            display: none;
+        }
+        input#menu:checked + nav#main_nav{
+            display: block;
+        }
+        html{
+            background-image: url('중형앵무새_배경.jpg') ;
+            background-size: 200px;
+            background-repeat: no-repeat;
+            background-position: 85% 27%;
+        }
+        #wang_btn{
+            margin-right: -4px;
+        }
+        #rose_btn{
+            margin-left: -3px;
+        }
+        #conure_btn{
+            margin-left: -6px;
+        }
+        #kai_btn{
+            margin-left: -7px;
+        }
+        #que_btn{
+            margin-left: -7px;
+        }
+        #content button{
+            border: 3px solid rgb(252, 230, 34);
+            background-color: white;
+            color: rgb(252, 230, 34);
+            padding: 5px;
+            font-weight: 800;
+        }
+        #content button:hover{
+            color: white;
+            background-color: rgb(252, 230, 34);
+        }
+    </style>
+    <link rel="stylesheet" href="parrot.css">
+</head>
+
+<body>
+    <header><a href="index.html">앵무새의 종류</a></header>
+    <label class="menu" for="menu">Click Me!</label>
+    <input id="menu" type="checkbox">
+    <nav id="main_nav">
+        <ul>
+            <li><a href="parrot_1.html"><img src="parrot_b.png" width="50px">소형앵무새</a></li>
+            <li><a href="parrot_2.html"><img src="parrot_g.png" width="50px">중형앵무새</a></li>
+            <li><a href="parrot_3.html"><img src="parrot_r.png" width="50px">대형앵무새</a></li>
+        </ul>
+    </nav>
+    <div id="content">
+        <button id="wang_btn"><a href="m_wang.html">왕관앵무</a></button>   
+        <button id="rose_btn"><a href="m_rose.html">장미앵무</a></button>
+        <button id="conure_btn"><a href="m_conure.html">코뉴어</a></button>
+        <button id="kai_btn"><a href="m_kai.html">카이큐</a></button>
+        <button id="que_btn"><a href="m_que.html">퀘이커</a></button>
+    </div>   
+
+            <div class="content">
+            <section class="parrot_Characteristic">
+                <img src="카이큐.jfif" width="20%">
+                <img src="카이큐2" width="20%">
+                <div>
+                    <h4>카이큐 kaicue</h4>
+                </div>
+                <div>
+                    <p>
+                        생김새: 흔히 머리색으로 구분을 하며 위 사진에 있는 녀석은 검은 머리 카이큐라고 불리며 머리에 무늬가 따로 없이 노랑색일 경우 노랑 머리 카이큐라고 구분하는 편이다.<br/> 세부적으로 분류 하면 검은머리 카이큐(검은머리 카이큐 팔리드 카이큐) 노랑머리 카이큐 (초록다리 카이큐 노랑다리 카이큐 노란꼬리 카이큐) 이렇게 있다.<br/>
+                        일반적으로 노랑머리 카이큐의 덩치가 미세하게 더 크다고는 하지만 거의 차이가 없다고 한다.<br/>
+                        먹이:<br/><br/>
+                        서식지: <strong>남아메리카</strong><br/><br/>
+                        특징: 장난끼가 어마어마하게 많아 같이 놀아주다 보면 사람이 먼저 지치기로 유명 할 정도로 에너지가 넘친다. <br/>이를 증명하듯 다리근육이 상당히 발달되어 있어서 기분이 좋으면 쉴 새 없이 콩콩 뛰어다니며 노래를 부른다.<br/><br/>
+                        많이 안 알려진 사실로는 이 녀석들 새주제에 비행이 서툴어서 장거리 비행이 힘들다. <br/>혹시나 자유비행을 꿈꾸는 사람이라면 이 종은 피하는 것이 좋다.
+                    </p>
+                    <p>
+                        <h2>유투브 스타 루이</h2>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/3v60Etpi96g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </p>
+
+                </div>
+            </section>
+
+            </div>
+            <footer>
+                <p style="padding: 0 0 0 15px;">
+                    <span>contact me</span><br/>
+                    <span>이메일: dmsql940124@naver.com</span><br/>
+                </p>
+            </footer>
+    </div>
+</body>
+</html>

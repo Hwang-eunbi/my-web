@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>빗창앵무</title>
+    <style>
+        li{ list-style-type: none;}
+        label.menu{
+            text-align: center;
+            border: 0px solid black;
+            padding: 0px;
+        }
+        input#menu{
+            display: none;
+        }
+        nav#main_nav{
+            display: none;
+        }
+        input#menu:checked + nav#main_nav{
+            display: block;
+        }
+        html{
+            background-image: url('소형앵무새_배경.jpg') ;
+            background-size: 200px;
+            background-repeat: no-repeat;
+            background-position: 85% 27%;
+
+        }
+        #moran_btn{
+            margin-right: -4px;
+        }
+        #bit_btn{
+            margin-left: -3px;
+        }
+        #salang_btn{
+            margin-left: -6px;
+        }
+        #yuri_btn{
+            margin-left: -7px;
+        }
+        #ckacka_btn{
+            margin-left: -7px;
+        }
+        #content button{
+            border: 3px solid rgb(252, 230, 34);
+            background-color: white;
+            color: rgb(252, 230, 34);
+            padding: 5px;
+            font-weight: 800;
+        }
+        #content button:hover{
+            color: white;
+            background-color: rgb(252, 230, 34);
+        }
+    </style>
+    <link rel="stylesheet" href="parrot.css">
+</head>
+
+<body>
+    <header><a href="index.html">앵무새의 종류</a></header>
+    <label class="menu" for="menu">Click Me!</label>
+    <input id="menu" type="checkbox">
+    <nav id="main_nav">
+        <ul>
+            <li><a href="parrot_1.html"><img src="parrot_b.png" width="50px">소형앵무새</a></li>
+            <li><a href="parrot_2.html"><img src="parrot_g.png" width="50px">중형앵무새</a></li>
+            <li><a href="parrot_3.html"><img src="parrot_r.png" width="50px">대형앵무새</a></li>
+        </ul>
+    </nav>
+    <div id="content">
+        <button id="moran_btn"><a href="s_moran.html">모란앵무</a></button>   
+        <button id="bit_btn"><a href="s_bit.html">빗창앵무(사자나미)</a></button>
+        <button id="salang_btn"><a href="s_salang.html">사랑앵무</a></button>
+        <button id="yuri_btn"><a href="s_yuri.html">유리앵무</a></button>
+        <button id="ckacka_btn"><a href="s_ckacka.html">카카리키</a></button>
+        </div>
+    </div>    
+
+            <div class="content">
+            <section class="parrot_Characteristic">
+                <img src="s_bit_parrot.jpg" width="30%">
+                <img src="BIT3.jpg" width="30%">
+                <div>
+                    <h4>빗창앵무(사자나미) Barred parakeet</h4>
+                </div>
+                <div>
+                    <p>
+                        생김새: 다양한 색상의 종이 있다. 청록색, 파랑색, 노랑색, 검회색등이 있으며<br/> 성별의 구분은 육안상으론 할 수 없다.<br/><br/>
+                        먹이:알곡사료, 과일, 펠렛(고온을 압착해 만든 사료), 야채, 밀웜 등<br/><br/>
+                        서식지: <strong>중남미 고원일대</strong>
+                        특징: 입질이 거의 없고 온순하면서도 느긋하지만, 예민하고 다소 소심한 성격이어서 적응기간이 약간 오래 걸린다<br/> 
+                        하지만 초반에 신경 써서 조심스럽게 다뤄주면 익숙해진 뒤에는 모란앵무나 왕관앵무 정도는 아니지만 애교도 제법 잘 부리게 된다. <br/>
+                        의심이 많은 반면 호기심도 많고 소형종 앵무 치고는 발을 잘 사용하는 편. <br/><br/>
+                        비교적 조용하고 잔털 날림이나 파우더가 적어 처음 기르는 사람에게도 무난하다. 다른 종류에 비해 느릿느릿하며, 나뭇가지나 횃대 위를 기어 다니듯 앞으로 다닌다. <br/>
+                        다만 워낙 예민한 성격이라 번식 시키기가 까다로워서 소형앵무 중에서는 분양가가 가장 높으며 조류원이나 앵무새 카페 등에서는 흔히 보지 못한다.
+                        <br/>
+                    </p>
+                </div>
+            </section>
+            </div>
+            <footer >
+                <p style="padding: 0 0 0 15px;">
+                    <span>contact me</span><br/>
+                    <span>이메일: dmsql940124@naver.com</span><br/>
+                </p>
+            </footer>
+    </div>
+</body>
+</html>

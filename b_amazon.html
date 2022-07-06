@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>아마존앵무</title>
+    <style>
+        li{ list-style-type: none;}
+        label.menu{
+            text-align: center;
+            border: 0px solid black;
+            padding: 0px;
+        }
+        input#menu{
+            display: none;
+        }
+        nav#main_nav{
+            display: none;
+        }
+        input#menu:checked + nav#main_nav{
+            display: block;
+        }
+        html{
+            background-image: url('b_parrot.jpg') ;
+            background-size: 200px;
+            background-repeat: no-repeat;
+            background-position: 85% 27%;
+        }
+        #keum_btn{
+            margin-right: -4px;
+        }
+        #africa_btn{
+            margin-left: -3px;
+        }
+        #cockatoo_btn{
+            margin-left: -6px;
+        }
+        #amazon_btn{
+            margin-left: -7px;
+        }
+        #kakapo_btn{
+            margin-left: -7px;
+        }
+        #content button{
+            border: 3px solid rgb(252, 230, 34);
+            background-color: white;
+            color: rgb(252, 230, 34);
+            padding: 5px;
+            font-weight: 800;
+        }
+        #content button:hover{
+            color: white;
+            background-color: rgb(252, 230, 34);
+        }
+
+
+    </style> 
+    <link rel="stylesheet" href="parrot.css">
+</head>
+
+<body>
+    <div id="body-wrapper">
+        <header><a href="index.html">앵무새의 종류</a></header>
+    
+    <div>
+        <label class="menu" for="menu">Click Me!</label>
+        <input id="menu" type="checkbox">
+        <nav id="main_nav">
+            <ul>
+                <li><a href="parrot_1.html"><img src="parrot_b.png" width="50px">소형앵무새</a></li>
+                <li><a href="parrot_2.html"><img src="parrot_g.png" width="50px">중형앵무새</a></li>
+                <li><a href="parrot_3.html"><img src="parrot_r.png" width="50px">대형앵무새</a></li>
+            </ul>            
+        </nav>
+        <div id="content">
+            <button id="keum_btn"><a href="b_keum.html">금강앵무</a></button>   
+            <button id="africa_btn"><a href="b_africa.html">아프리카회색앵무</a></button>
+            <button id="cockatoo_btn"><a href="b_cocka.html">유황앵무(코카투)</a></button>
+            <button id="amazon_btn"><a href="b_amazon.html">아마존앵무</a></button>
+            <button id="kakapo_btn"><a href="b_eclectus.html">뉴기니아앵무</a></button>
+        </div>
+    </div>    
+
+            <div class="content">
+            <section class="parrot_Characteristic">
+                <img src="아마존앵무1.jpg" width="20%">
+                <img src="아마존앵무2.jpg" width="20%">
+                <div>
+                    <h4>아마존앵무 Amazon parrots</h4>
+                </div>
+                <div>
+                    <p>
+                        생김새: 대부분의 아마존앵무는 주로 녹생이며 종에 따라 매우 선명한 색상을 강조한다.<br/><br/>
+                        먹이: 씨앗, 견과류, 과일 등<br/><br/>
+                        서식지: <strong>남아프리카 공화국, 유럽</strong>에 주로 분포<br/><br/>
+                        특징: 대부분 음성으로 의사소통한다. 사람의 말과 다른 소리를 흉내내는 능력을 갖고있다.<br/> 포식자를 피하기 위해 사용되는 것으로 여겨지는 새들과의 제스처 의사 소통 패턴이 관찰되기도 했다.<a href="https://en.wikipedia.org/wiki/Amazon_parrot#cite_note-34" style="color: blue;">[논문참고]</a>
+                        
+                    </p>
+                    <p>
+                        <h2>유투브 스타 루이</h2>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/3v60Etpi96g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </p>
+
+                </div>
+            </section>
+
+            </div>
+            <footer>
+                <p style="padding: 0 0 0 15px;">
+                    <span>contact me</span><br/>
+                    <span>이메일: dmsql940124@naver.com</span><br/>
+                </p>
+            </footer>
+    </div>
+</body>
+</html>

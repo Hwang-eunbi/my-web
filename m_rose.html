@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>장미앵무</title>
+    <style>
+        li{ list-style-type: none;}
+        label.menu{
+            text-align: center;
+            border: 0px solid black;
+            padding: 0px;
+        }
+        input#menu{
+            display: none;
+        }
+        nav#main_nav{
+            display: none;
+        }
+        input#menu:checked + nav#main_nav{
+            display: block;
+        }
+        html{
+            background-image: url('중형앵무새_배경.jpg') ;
+            background-size: 200px;
+            background-repeat: no-repeat;
+            background-position: 85% 27%;
+        }
+        #wang_btn{
+            margin-right: -4px;
+        }
+        #rose_btn{
+            margin-left: -3px;
+        }
+        #conure_btn{
+            margin-left: -6px;
+        }
+        #kai_btn{
+            margin-left: -7px;
+        }
+        #que_btn{
+            margin-left: -7px;
+        }
+        #content button{
+            border: 3px solid rgb(252, 230, 34);
+            background-color: white;
+            color: rgb(252, 230, 34);
+            padding: 5px;
+            font-weight: 800;
+        }
+        #content button:hover{
+            color: white;
+            background-color: rgb(252, 230, 34);
+        }
+    </style>
+    <link rel="stylesheet" href="parrot.css">
+</head>
+
+<body>
+    <header><a href="index.html">앵무새의 종류</a></header>
+    <label class="menu" for="menu">Click Me!</label>
+    <input id="menu" type="checkbox">
+    <nav id="main_nav">
+        <ul>
+            <li><a href="parrot_1.html"><img src="parrot_b.png" width="50px">소형앵무새</a></li>
+            <li><a href="parrot_2.html"><img src="parrot_g.png" width="50px">중형앵무새</a></li>
+            <li><a href="parrot_3.html"><img src="parrot_r.png" width="50px">대형앵무새</a></li>
+        </ul>
+    </nav>
+    <div id="content">
+        <button id="wang_btn"><a href="m_wang.html">왕관앵무</a></button>   
+        <button id="rose_btn"><a href="m_rose.html">장미앵무</a></button>
+        <button id="conure_btn"><a href="m_conure.html">코뉴어</a></button>
+        <button id="kai_btn"><a href="m_kai.html">카이큐</a></button>
+        <button id="que_btn"><a href="m_que.html">퀘이커</a></button>
+    </div>
+    </div>    
+            <div class="content">
+            <section class="parrot_Characteristic">
+                <img src="rose.jpg" width="20%">
+                <img src="rose2.jpg" width="20%">
+                <div>
+                    <h4>장미앵무(Platycercus eximius)</h4>
+                </div>
+                <div>
+                    <p>
+                        생김새: 머리·앞가슴·배는 붉은색이고 양 볼과 목은 흰색, 등과 날개 위쪽은 노란색 바탕에 검정색 무늬가 있다. 날개 아래쪽은 연한 청색, 옆구리는 노란색이고 그 아래는 연한 녹색, 꼬리는 녹색이다. <br/>몸길이는 약 33cm이다. 암수 같은 빛깔이나 앞가슴과 배의 붉은색 부분이 넓고 두개골이 약간 큰 것이 수컷이다. 어린 새는 초록색을 띠기 때문에 성별의 구별이 곤란하다.<br/><br/>
+                        먹이: 알곡류, 수수, 옥수수, 오징어뼈, 배추, 양배추 등<br/><br/>
+                        서식지: <strong>호주,태즈메이니아섬(밀림, 산림지대)</strong><br/><br/>
+                        특징: 번식이 쉬운편이다. 같이 할 수 있는 시간이 적다면 쉽게 야성조가 될 가능성이 높기 때문에 하루 중 오랜시간을 그들과 함께 할 수 있다는 확신이 들 때입양을 하도록 하자.
+                    </p>
+                </div>
+            </section>
+
+            </div>
+            <footer>
+                <p style="padding: 0 0 0 15px;">
+                    <span>contact me</span><br/>
+                    <span>이메일: dmsql940124@naver.com</span><br/>
+                </p>
+            </footer>
+    </div>
+</body>
+</html>
