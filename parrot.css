@@ -37,6 +37,12 @@ nav{
 aside{width: 500px;
     float: right;
 }
+
+.parrots_icons{
+    text-align: center;
+
+    
+}
 .poster{
     flex-direction: row;
     float: left;
@@ -44,8 +50,8 @@ aside{width: 500px;
 }
 .navbar {
     background-color: rgb(190, 237, 120);
-}
 
+}
 #body-wrapper{
     height: auto;
     min-height: 100%;
@@ -62,7 +68,7 @@ aside{width: 500px;
 #main_btn{
     padding: 210px 0px 500px 700px;
 }
-
+#
 .menubars { display: none;}
 
 #main_sp_btn{
@@ -155,27 +161,4 @@ cursor: pointer;
 letter-spacing: 2px;
 transform: scale(1.2);
 cursor: pointer;
- }
- @media (min-width:1024px),(max-width:1080px){
-    #main_sp_btn {
-        
-        margin-left: -100px;
-
-    }
-    #main_mp_btn {
-        
-        margin-left: -70px;
-        margin-right: 220px;
-
-    }
-    #main_mp_btn{
-        
-        margin-left: -60px;
-
-    }
-    .parrots_icons{
-     
-        margin-left: 300px;
-    }
-  
  }
